@@ -3,9 +3,9 @@
 /* Variables */
 :root {
     font-family: "M PLUS 1 Code", monospace;
-  --normal-font: 400;
-  --bold-font: 600;
-  --bolder-font: 800;
+  --normal-font: 200;
+  --bold-font: 500;
+  --bolder-font: 700;
   --bg-color: #fcfcfc;
   --primary-color: #00494f;
   --secondary-color: #ff7235;
