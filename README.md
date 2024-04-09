@@ -1,8 +1,10 @@
 ### Hi there 👋
-
+$ git config --global user.name "Hafrew"
+$ git config --global user.email darrenlai120@gmail.com
 <!--
 **Hafrew/hafrew** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
