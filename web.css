@@ -17,49 +17,32 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 };
-/* Variables end */
-#nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display:flexbox ;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    
-  };
-  #nav h1 {
-    color: var(--primary-color);
-  };
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
   
-  #nav a {
-    color: var(--primary-color);
-    transition: var(--transition);
-  };
-  #nav a:hover {
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
-  };
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
   
-  #nav ul {
-    display: flex;
-    gap: 1.9rem;
-  };
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
   
-  #nav ul li {
-    font-weight: var(--bold-font);
-  };
-  .burger-menu {
-    color: var(--primary-color);
-    font-size: 2rem;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-    display: none;
-  };
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 html {
   scroll-behavior: smooth;
 };
